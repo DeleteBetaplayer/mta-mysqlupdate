@@ -15,9 +15,9 @@ Export yapmayı unutmayınız :)
 # code sample
 `mysqlUpdate(element1,element2,element3,element4,element5)`
 
-
-# element1 = table
-# element2 = field
-# element3 = data
-# element4 = player dbid
-# element5 = operation
+# code explanations
+element1 = table
+element2 = field
+element3 = data
+element4 = player dbid
+element5 = operation
