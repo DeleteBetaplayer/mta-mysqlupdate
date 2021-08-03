@@ -6,7 +6,8 @@
 ### Usage
 ```lua
 local dbid = p:getData("dbid")
-mysqlUpdate("characters","level",1,dbid,"+")```
+mysqlUpdate("characters","level",1,dbid,"+")
+```
 
 
 ### What happened?
