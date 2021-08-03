@@ -9,6 +9,6 @@ local dbid = p:getData("dbid")
 mysqlUpdate("characters","level",1,dbid,"+")```
 
 
-#####What happened?
+##### What happened?
 Added level 1 in the character table.
 
