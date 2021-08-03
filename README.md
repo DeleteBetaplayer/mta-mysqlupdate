@@ -1,17 +1,14 @@
-# mta-mysqlupdate
-update process with shortcut
+### Features
 
-# EN
-This update is useful for your mysql process in a short time. Instead of writing it long, you can do it short as I mentioned. Do not forget to export :)
-# TR
-Bu update kısa sürede mysql işleminize yaramaktadır. Uzun bir şekilde yazmak yerine, belirttiğim gibi kısa bir şekilde yapabilirsiniz. Export yapmayı unutmayınız :)
+- You can update MYSQL in a short time.
+- You can do more oop update with current element.
 
-# code sample
-`mysqlUpdate(element1,element2,element3,element4,element5)`
+### Usage
+```lua
+local dbid = p:getData("dbid")
+mysqlUpdate("characters","level",1,dbid,"+")```
 
-# code explanations
-|| element1 = table ||
-element2 = field ||
-element3 = data ||
-element4 = player dbid ||
-element5 = operation ||
+
+#####What happened?
+Added level 1 in the character table.
+
